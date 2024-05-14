@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,10 +12,43 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".slot3.Demo34MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot3.Demo3MainActivity"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".slot3.Demo32MainActivity"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name=".slot3.Demo31MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".slot31.ListProductSlot31Activity"
+            android:exported="true" />
+        <activity
+            android:name=".slot30.Slot301CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot30.Slot301MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +56,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".slot2.Slot25MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot2.Slot24MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slot2.Slot23MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot2.Slot22MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slot1.Slot12MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slot2.Slot2MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slot1.Slot1MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication" />
     </application>
 
 </manifest>

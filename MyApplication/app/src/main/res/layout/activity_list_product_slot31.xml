@@ -1,0 +1,11 @@
+<!-- activity_list_product_b1405.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/slot31A310Lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
