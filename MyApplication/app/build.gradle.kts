@@ -51,6 +51,7 @@ android {
 
 dependencies {
     implementation("com.squareup.picasso:picasso:2.71828")
+    implementation("androidx.activity:activity:1.9.0")
 
     annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
