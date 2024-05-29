@@ -16,19 +16,22 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".slot5.Demo51MainActivity"
+            android:name=".slot6.Demo6MainActivity"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
-            android:name=".slot4.Demo41Activity"
+            android:name=".slot5.Demo51MainActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".slot4.Demo41Activity"
+            android:exported="true" />
         <activity
             android:name=".slot3.Demo34MainActivity"
             android:exported="false" />
@@ -40,7 +43,7 @@
             android:exported="true" />
         <activity
             android:name=".slot3.Demo31MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".slot31.ListProductSlot31Activity"
             android:exported="true" />
@@ -49,7 +52,7 @@
             android:exported="false" />
         <activity
             android:name=".slot30.Slot301MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".slot2.Slot25MainActivity"
             android:exported="false" />

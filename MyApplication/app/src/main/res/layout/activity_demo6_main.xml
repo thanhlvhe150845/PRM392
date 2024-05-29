@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quan ly san pham"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/demo61TxtMaSP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="ma san pham" />
+    <EditText
+        android:id="@+id/demo61TxtTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="ten san pham" />
+
+    <EditText
+        android:id="@+id/demo61TxtSLSP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="so luong san pham"
+        android:inputType="number" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/demo6BtnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Display" />
+
+        <Button
+            android:id="@+id/demo6BtnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/demo6BtnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/demo6BtnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/demo61Lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
